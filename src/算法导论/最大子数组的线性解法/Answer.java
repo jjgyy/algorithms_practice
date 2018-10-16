@@ -6,37 +6,37 @@ public class Answer {
     private int right;
     private int sum;
 
-    public Answer (int left, int right, int sum) {
+    Answer (int left, int right, int sum) {
         this.left = left;
         this.right = right;
         this.sum = sum;
     }
 
-    public int getLeft () {
+    int getLeft () {
         return left;
     }
 
-    public int getRight () {
+    int getRight () {
         return right;
     }
 
-    public int getSum () {
+    int getSum () {
         return sum;
     }
 
-    public void setLeft(int left) {
+    void setLeft(int left) {
         this.left = left;
     }
 
-    public void setRight(int right) {
+    void setRight(int right) {
         this.right = right;
     }
 
-    public void setSum(int sum) {
+    void setSum(int sum) {
         this.sum = sum;
     }
 
-    public void setAnswer(int left, int right, int sum) {
+    void setAnswer(int left, int right, int sum) {
         this.left = left;
         this.right = right;
         this.sum = sum;
